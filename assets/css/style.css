@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Square+Peg&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-dark {
+    background-color: #1b1c20 !important;
+}
+
+/* NAVBAR */
+.text-logo {
+    font-family: "Square Peg", cursive;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-name {
+    color: #ef5350;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 300;
+    padding: 20px 0px !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+}
+
+/* SECTION HEROE */
+.heroe {
+    padding-top: 5rem;
+    color: white;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.carousel h1 {
+    font-weight: bold;
+}
+
+.vertical.carousel .carousel-item {
+    overflow: hidden;
+}
+
+.vertical.carousel .carousel-item-next:not(.carousel-item-start),
+.vertical.carousel .active.carousel-item-end {
+    transform: translateY(100%);
+}
+
+.vertical.carousel .carousel-item-prev:not(.carousel-item-end),
+.vertical.carousel .active.carousel-item-start {
+    transform: translateY(-100%);
+}
+
+.box {
+    display: inline-block;
+    height: 20rem;
+}
+
+.text {
+    font-size: 2rem;
+}
+
+.highlight-red {
+    color: #ef5350;
+}
+.highlight-orange {
+    color: rgba(253, 149, 90, 0.8);
+}
+.highlight-purple {
+    color: blueviolet;
+}
+.highlight-blue {
+    color: #6ac4ff;
+}
+
+#typewriter:after {
+    content: "|";
+    animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        padding: 10px 0px !important;
+    }
+
+    .box {
+        display: block;
+        height: 12rem;
+        margin-top: 1rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+}
