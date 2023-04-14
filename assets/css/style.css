@@ -16,6 +16,14 @@ h2 {
     font-size: 3.5rem;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 /* NAVBAR */
 .text-logo {
     font-family: "Square Peg", cursive;
@@ -42,7 +50,7 @@ h2 {
 .heroe {
     padding: 8rem 0 6rem 0;
     color: white;
-    background-image: url("../img/bg-hero.avif");
+    background-image: url("../img/bg-hero.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -137,7 +145,7 @@ h2 {
 /* Seccion Sobre mi */
 .sobre-mi {
     background-color: #f5f6f7;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .img-profile {
@@ -145,6 +153,35 @@ h2 {
     margin: 1.5rem 0;
 }
 
+.sobre-mi p {
+    text-align: justify;
+}
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3-alt {
+  color: #0059d7;
+}
+
+.fa-bootstrap {
+  color: #5d0dce;
+}
+
+.fa-git-alt{
+  color: #E44D30;
+}
+
+.fa-github {
+  color: black;
+}
+
+@media screen and (max-width: 992px) {
+    .sobre-mi .item-center {
+        text-align: center;
+    }
+}
 
 
 /* Section Footer */
